@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+:root {
+    border: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.title {
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 32px;
+    color: #23272A;
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #23272A;
+    padding: 5px;
+    text-align: center;
+}
+
+.blue {
+    color: #5865F2;
+}
+
+p {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.box {
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.image1 img {
+    width: 300px;
+}
+
+.image img {
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.big-box {
+    padding: 0 25px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+@media (max-width:768px) {
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .box {
+        line-height: 20px;
+        width: 100vh;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .container {
+        gap: 10px;
+    }
+   
+}
